@@ -1,0 +1,14 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+@media only screen and (max-width:768px){
+	p.notify-block{
+		display:grid !important;
+	}
+	.wiz-notification-bar-inner {
+    	flex-direction: column;
+    	justify-content: center;
+    	text-align: center;
+	}
+}
